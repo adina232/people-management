@@ -1,0 +1,81 @@
+<html lang="en" xmlns:th="https:www.thymeleaf.org">
+
+<head>
+    <title>Our Employees</title>
+    <link rel="icon" type="image/x-icon"
+          href="data:image/png;base64,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"/>
+    <link href="https://cdn.datatables.net/v/bs4/dt-1.13.5/datatables.min.css"
+          rel="stylesheet"
+          type="text/css"/>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <style>
+        tr:hover {outline: 2px solid grey;
+        }
+        body {
+          background-color: #ADD8E6;
+          font-family: Helvetica;
+        }
+        tr, td, th{
+          text-align:center;
+        }
+
+    </style>
+    <script src="https://kit.fontawesome.com/9470ca765a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container text-center my-5">
+    <h2>Our Employees</h2>
+    <hr/>
+    <a th:href="@{/addEmployee}" class="btn btn-primary mb-2">Add Employee</a>
+
+    <table class="table table-bordered table-striped" id="employee-table">
+        <thead style="background-color: #D3D3D3">
+        <tr>
+            <th style="text-align:center">First Name</th>
+            <th style="text-align:center">Last Name</th>
+            <th style="text-align:center">Department</th>
+            <th style="text-align:center">Actions</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="employee: ${employees}">
+            <td th:text="${employee.firstName}"></td>
+            <td th:text="${employee.lastName}"></td>
+            <td th:text="${employee.department}"></td>
+
+            <td style="text-align:center">
+
+                <a style="color:black" th:href="@{/showUpdateForm(id=${employee.id})}">
+                    <i class="fa-regular fa-pen-to-square mr-3"></i></a>
+
+                <a style="color:blue" th:href="@{/deleteEmployee(id=${employee.id})}">
+                    <i class="fa-solid fa-trash ms-4"></i></a>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/v/bs4/dt-1.13.5/datatables.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#employee-table").DataTable({
+          'aoColumnDefs': [{
+            'bSortable': false,
+            'aTargets': [-1]
+            }]
+        });
+    })
+
+</script>
+</body>
+
+
+</html>
